@@ -1,11 +1,16 @@
 {
+  "id": "/",
   "name": "VerdantVision: Plant Disease AI",
   "short_name": "VerdantVision",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#F0EFE7",
-  "theme_color": "#4A6E55",
   "description": "Identify plant diseases with a snap using AI.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#4A6E55",
+  "background_color": "#F0EFE7",
   "icons": [
     {
       "src": "/icons/icon-192x192.png",
@@ -19,5 +24,28 @@
       "type": "image/png",
       "purpose": "any maskable"
     }
-  ]
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/home.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Home screen showing plant scanner"
+    },
+    {
+      "src": "/screenshots/result.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "AI-generated disease diagnosis result"
+    }
+  ],
+  "categories": [
+    "education",
+    "health",
+    "utilities"
+  ],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "prefer_related_applications": false
 }
